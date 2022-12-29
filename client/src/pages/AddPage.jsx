@@ -35,7 +35,9 @@ const AddPage = () => {
   .then((res) => {
     console.log(res.data)
   })
-  .catch((error))
+  .catch((error)=>{
+    console.log(error);
+  })
  }
   return (
     <div className="container">
@@ -95,7 +97,7 @@ const AddPage = () => {
           </div>
         </div>
 
-        <button type="submit" class="btn btn-primary">
+        <button type="submit" class="btn btn-primary" onClick={addPage}>
           Sign in
         </button>
       </form>
