@@ -98,7 +98,7 @@ const AddPage = () => {
         </div>
 
         <button type="submit" class="btn btn-primary" onClick={addPage}>
-          Sign in
+          add
         </button>
       </form>
     </div>
